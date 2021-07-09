@@ -21,7 +21,7 @@
                                 $totalCart = ProductController::cartItem();
                             }
                         ?>
-                        <a class="nav-link active" aria-current="page" href="#">Cart<span>(<?= $totalCart ?>)</span></a>
+                        <a class="nav-link active" aria-current="page" href="/cartList">Cart<span>(<?= $totalCart ?>)</span></a>
                     </li>
 
                     <li class="nav-item">

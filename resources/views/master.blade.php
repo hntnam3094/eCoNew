@@ -50,4 +50,9 @@
         width: 100%;
         height: auto;
     }
+
+    .cart--list--item {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #333333;
+    }
 </style>

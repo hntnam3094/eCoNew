@@ -27,3 +27,4 @@ Route::post('/login', [UserController::class,'login']);
 Route::get('/', [ProductController::class,'index']);
 Route::get('product/{id}',[ProductController::class,'view']);
 Route::post('/add-to-cart',[ProductController::class,'addToCart']);
+Route::get('/cartList',[ProductController::class,'cartList']);

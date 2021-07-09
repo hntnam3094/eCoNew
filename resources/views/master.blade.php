@@ -13,7 +13,7 @@
 <body>
     {{View::make('header')}}
     @yield('content')
-    {{View::make('footer')}}
+{{--    {{View::make('footer')}}--}}
 </body>
 </html>
 
@@ -24,5 +24,30 @@
 
     .fullwidth-btn {
         width: 100%;
+    }
+
+    img.slider-img {
+        height: 400px !important;
+    }
+
+    .carousel-caption {
+        background-color: #67a9abb0;
+    }
+
+    .trending--item {
+        float:left;
+        padding: 25px;
+    }
+    .trending--image {
+        width: 200px;
+        height: 150px;
+    }
+
+    .detail--item {
+        padding-top: 100px;
+    }
+    .detail--item img {
+        width: 100%;
+        height: auto;
     }
 </style>
